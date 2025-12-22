@@ -166,6 +166,6 @@ const explanationDiv = document.querySelector("div#explanation");
 const explanationImg = explanationDiv.querySelector("img");
 const explanationH2 = explanationDiv.querySelector("h2");
 const explanationP = explanationDiv.querySelector("p");
-explanationImg.src = `../assets/${mbti}/${getRandomInt()}.jpg`
+explanationImg.src = `../assets/${mbti}/${getRandomInt()}.png`
 explanationH2.textContent = `${mbti}의 성격 특성`;
 explanationP.innerHTML = resultText[mbti].replace(/\n/g, '<p>');
